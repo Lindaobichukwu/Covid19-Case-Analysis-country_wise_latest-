@@ -7,7 +7,8 @@
 
 
 ### Project Description: 
-               . In this project, I took help from Numpy, Pandas, Seaborn and Matplotlib to create amazing visualizations.
+               . In this project, I took help from Numpy, Pandas, Seaborn and Matplotlib to create amazing 
+                 visualizations.
                . This project anaylzes a new coronavirus designated 2019-nCoV was first identified in Wuhan, 
                  the capital of China's Hubei province.
                . People developed pneumonia without a clear cause and for which existing vaccines or treatments were 
@@ -15,7 +16,8 @@
                . The virus has shown evidence of human-to-human transmission.
                . Transmission rate (rate of infection) appeared to escalate in mid-January 2020.
                . As of 30 January 2020, approximately 8,243 cases have been confirmed.
-               . The dataset was imported from an Excel file, processes it, and then generates visualizations to analyze the data.
+               . This project reads covid_19 analysis(country wise latest) from an Excel file, processes 
+                 it, and then generates visualizations to analyze the data.
                      
 ### Execution: 
                In the course of this project, 
@@ -23,33 +25,55 @@
                                                 import numpy as np
                                                 import seaborn as sns
                                                 import matplotlib.pyplot as plt
+                                                %matplotlib inline
+                                                sns.set(color_codes=True)
+                                                from sklearn.impute import SimpleImputer
                                               
-                     . Imported my dataset: car = df = pd.read_csv('Prosper Loan.csv')
+                     . Imported my dataset: car = df = pd.read_csv('country_wise_latest.csv'))
                     
-                     . Explored my dataset: my dataset has  81 columns and 113,937 rows.
+                     . Explored my dataset: my dataset has  187 rows × 15 columns.
 
-                                            It also contains the following datatypes boolean (3), float (49), 
-                                            int (12) and object (17).
+                                            It also contains the following datatypes float64(4), 
+                                            int64(9), object(2).
                     
                      . Cleaned and Prepared my dataset: Dropped irrelevant columns, renaming the column names,
                                                         dropping duplicate rows and missing values etc.
                     
                      . Visualized my dataset: 
                                 Some of the data visualized are as follows:
-                                       . Loan Months Since Origination Distribution
-                                       . Loan Original Amount Distribution
-                                       . Prosper Score Distribution
-                                       . Prosper Rating (Alpha) Distribution
-                                       . Is Borrower Home Owner By Income Range
-                                       . Loan Original Amount By Income Range
-                                       . 'Number of Investors By Loan Status
-                                       . Loan Original Amount By Term
+                                       . Total sum of death cases.
+                                       . Total sum of recovered cases.
+                                       . Average of the recovered cases.
+                                       . Sorted the confirmed cases in descending order.
+                                       . Which countries were highly affected?
+                                       . Top 10 countries that were highly affected.
+                                       . Sorted the death cases in descending order.
+                                       . Analyzed the total sum of affected countries 
+                                         across the region by the total death rate across the region.
+                                       . Sorted the recovered cases in descending order.
+                                       . Sorted the active cases in descending order.
+                                       . Analyzed the total number of recovered cases by 
+                                         the total number of active persons across the region.
+                                       . Total Number of new cases.
+                                       . Counted the weekly % increase.
+                                       . Analyzed the weekly change and weekly % increase by 
+                                         WHO Region.
+                                       . Analyzed the deaths and recovery rates.  
+                                       . Analyzed the new death rate and the new recovered rate across 
+                                         the region.
+                                       . Total number of new deaths rate.
+                                       . Total number of new recovered.
 
 ### Conclusion: 
-              In conclusion, I observed that Income truely affects the amount of Loan individuals are been 
-              granted in Prosper Loan Company because the more your Income, the more Loan you will be granted. 
-              The less your income, the less loan you will be awarded.
-              
-              I also observed that the more investors you get to fund your Loan, the better chances your Loan 
-              Status will be Completed but if you have less investors to fund your Loan, your Loan Status might 
-              be Cancelled.
+             . In conclusion, I observed that US, Brazil, United Kingdom, Mexico and 
+               Italy had the highest death rates.
+             . America had the highest number of confirmed cases and also the highest 
+               number of death rate.
+             . America also had the highest number of recovered cases and also the 
+               highest number of active persons across the region.  
+             . The total number of new cases was more in America and South-East Asia.
+             . America had the highest number of weekly change while Africa had the 
+               most weekly percentage increase recovery.
+             . The relative rate of recovered persons were more than that of deaths.
+             . The total number of new recovered cases across the region were more 
+               than that of the new death cases.¶

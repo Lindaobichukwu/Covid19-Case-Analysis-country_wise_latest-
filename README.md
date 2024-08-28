@@ -1,5 +1,5 @@
 # Project Title: Covid_19 Case Analysis(country wise latest) Using Python Libraries.
-              This is a python analysis on Jupyter notebook using Numpy, Pandas, Seaborn and Matplotlib
+              This is a python analysis on Jupyter notebook using Numpy, Pandas, Seaborn and Matplotlib.
 
 
 ### Data Source:

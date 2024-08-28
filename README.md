@@ -40,7 +40,7 @@
                                                         dropping duplicate rows and missing values etc.
                     
                      . Visualized my dataset: 
-                                Some of the data visualized were as follows:
+                                Some of the data visualized are:
                                        . Total sum of death cases.
                                        . Total sum of recovered cases.
                                        . Average of the recovered cases.

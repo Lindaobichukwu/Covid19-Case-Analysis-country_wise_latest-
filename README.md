@@ -1,40 +1,40 @@
 # Project Title: Covid_19 Case Analysis(country wise latest) Using Python Libraries.
-              This is a python analysis on Jupyter notebook using Numpy, Pandas, Seaborn and Matplotlib.
+             ** This is a python analysis on Jupyter notebook using Numpy, Pandas, Seaborn and Matplotlib.**
 
 
 ### Data Source:
-              This project is a kaggle dataset.
+             ** This project is a kaggle dataset.**
 
 
 ### Project Description: 
-               . In this project, I took help from Numpy, Pandas, Seaborn and Matplotlib to create amazing 
-                 visualizations.
-               . This project anaylzes a new coronavirus designated 2019-nCoV was first identified in Wuhan, 
-                 the capital of China's Hubei province.
-               . People developed pneumonia without a clear cause and for which existing vaccines or treatments were 
-                 not effective.
-               . The virus has shown evidence of human-to-human transmission.
-               . Transmission rate (rate of infection) appeared to escalate in mid-January 2020.
-               . As of 30 January 2020, approximately 8,243 cases have been confirmed.
-               . This project reads covid_19 analysis(country wise latest) from an Excel file, processes 
-                 it, and then generates visualizations to analyze the data.
+             **. In this project, I took help from Numpy, Pandas, Seaborn and Matplotlib to create amazing 
+                 visualizations.**
+             **. This project anaylzes a new coronavirus designated 2019-nCoV was first identified in Wuhan, 
+                 the capital of China's Hubei province.**
+             **. People developed pneumonia without a clear cause and for which existing vaccines or treatments were 
+                 not effective.**
+             **. The virus has shown evidence of human-to-human transmission.**
+             **. Transmission rate (rate of infection) appeared to escalate in mid-January 2020.**
+             **. As of 30 January 2020, approximately 8,243 cases have been confirmed.**
+             **. This project reads covid_19 analysis(country wise latest) from an Excel file, processes 
+                 it, and then generates visualizations to analyze the data.**
                      
 ### Execution: 
-               In the course of this project, 
-                     . I imported my Libraries: import pandas as pd
-                                                import numpy as np
-                                                import seaborn as sns
-                                                import matplotlib.pyplot as plt
-                                                %matplotlib inline
-                                                sns.set(color_codes=True)
-                                                from sklearn.impute import SimpleImputer
+           **  In the course of this project, 
+                  ** . I imported my Libraries: import pandas as pd**
+                                              **import numpy as np**
+                                              **import seaborn as sns**
+                                              **import matplotlib.pyplot as plt**
+                                              **%matplotlib inline**
+                                              **sns.set(color_codes=True)**
+                                              **from sklearn.impute import SimpleImputer**
                                               
-                     . Imported my dataset: car = df = pd.read_csv('country_wise_latest.csv'))
+                     **. Imported my dataset: car = df = pd.read_csv('country_wise_latest.csv'))
                     
-                     . Explored my dataset: my dataset has  187 rows × 15 columns.
+                  **   . Explored my dataset: my dataset has  187 rows × 15 columns.
 
-                                            It also contains the following datatypes float64(4), 
-                                            int64(9), object(2).
+                                           **It also contains the following datatypes float64(4), 
+                                            int64(9), object(2).**
                     
                      . Cleaned and Prepared my dataset: Dropped irrelevant columns, renaming the column names,
                                                         dropping duplicate rows and missing values etc.
